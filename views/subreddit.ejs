@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= name %> </title>
+</head>
+<body>
+    <h1>Subs <%=subcribers%></h1>
+    <p>Browsing the <strong><%=postId%></strong> subreddit</p>
+    <ul>
+        <%for(let i =0; i< liked.length;i++){ %>
+            <hr>
+            <li><%=i+1%> <%=liked[i]%>  </li>
+            <hr>
+            <%}%>
+    </ul>
+    
+</body>
+</html>
