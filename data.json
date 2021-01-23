@@ -1,0 +1,16 @@
+{
+    "soccer":{
+        "name":"Gwen",
+        "description":"Please follow to get more",
+        "subcribers":2563,
+        "postId":1,
+        "liked": ["Nikoya","Stefany","Peter"]
+    },
+    "chickens":{
+        "name":"Colt",
+        "description":"I like dogs so much",
+        "subcribers":23,
+        "postId":2,
+        "liked": ["Nikoya","Stefany","Gwen","Peter"]
+    }
+}
